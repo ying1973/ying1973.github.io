@@ -5,10 +5,10 @@ let myImage = document.querySelector("img");
 
 myImage.onclick = function () {
     let mySrc = myImage.getAttribute("src");
-    if (mySrc === "images/H5KS`5CSX82.png") {
-      myImage.setAttribute("src", "images/%RAW8T03Q005U~D74[41VMU.png");
+    if (mySrc === "H5KS`5CSX82.png") {
+      myImage.setAttribute("src", "%RAW8T03Q005U~D74[41VMU.png");
     } else {
-      myImage.setAttribute("src", "images/H5KS`5CSX82.png");
+      myImage.setAttribute("src", "H5KS`5CSX82.png");
     }
 };
 let myButton = document.querySelector("button");
